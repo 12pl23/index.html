@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+
+    background-color:rgb(208, 209, 209);
+}
+.main{
+    background-color: white;
+}
+.container{
+    display: flex;
+}
+body{
+    background-color:grey;
+    color: rgb(170, 68, 139);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+nav{
+    display: flex;
+    justify-content:right;
+    align-items:center ;
+    height:30px;
+   
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style:none;
+        margin: 10px 20px;
+    }
+    nav ul li a :hover{
+        color: red;
+    }
+    .detel{
+        margin-left:8% ;
+        margin-top: 15%;
+    }
+    .detel{
+        font-size: 50px;
+        color:black;
+        margin-bottom: 20px;
+    }
+    span{
+        color: rgb(255, 0, 187);
+    }
+    .detel p{
+        color: rgb(4, 126, 86);
+        line-height: 22px;
+    }
+
+    p{
+        background-color:rgb(57, 200, 200);
+        padding: 2%;
+         margin-left: 0px;
+        width: 30%;
+
+        text-align: justify;
+        text-decoration: rgb(129, 26, 26);
+        
+    }
+    h1{
+       color: black;
+    }
+    .detel a{
+        background-color: rgb(250, 152, 6);
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(186, 7, 34);
+    }
+        
+    

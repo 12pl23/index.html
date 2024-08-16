@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background: url(Coffe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.navebar img{
+    width: 50px;
+}
+.navebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin:0 auto;
+    backdrop-filter: blur(16px)saturate(180%);
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid #ff6600;
+    position: relative;
+    top: 10px;
+}
+.nav-1 a{
+   color: #333;
+   text-decoration: none;
+   margin-right: 20px;
+   font-weight: bold;
+   position: relative;
+   transition: color 0.3s ease;
+}
+.nav-1 a::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+background-color: #ff6600;
+transition: 0.3s ease;
+}
